@@ -1,6 +1,6 @@
 # abcW-ML
 
-This repository contains:
+This repository contains teh files and R scripts to reproduce the results of Rohmer et al. (2023) "Combining machine learning predictions and numerical simulation results for the analysis of cyclone-induced extreme wave heights – Application in Guadeloupe".
 
 - [ ] R scripts
   run_doe.R : generate a deisgn of experiments from cyclone database
@@ -13,11 +13,11 @@ This repository contains:
   ./results: EVA results for varying proportions and different sampling procedures. It contains the R script for reproducing Figs. 6-9
   ./valid: ML validation results for varying proportions. It contains the R script for reproducing Fig. 5 and Suppl. Mat. B 
 
-The necessary R libraries are:
-ranger
-POT
-transport
-clhs
-ggplot2
-gridExtra
-dplyr
+- [ ] The necessary R libraries are:
+  - [ranger](https://cran.r-project.org/web/packages/ranger/index.html)
+  - [POT](https://cran.r-project.org/web/packages/POT/index.html)
+  - [transport](https://cran.r-project.org/web/packages/transport/index.html)
+  - [clhs](https://cran.r-project.org/web/packages/clhs/index.html)
+  - [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)
+  - [gridExtra](https://cran.r-project.org/web/packages/gridExtra/index.html)
+  - [dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)
