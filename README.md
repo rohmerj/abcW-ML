@@ -4,8 +4,8 @@ This repository contains the data and R scripts to reproduce the results of Rohm
 
 - [ ] R scripts
   - [run_doe.R](./run_doe.R) : generate a design of experiments from the cyclone database
-  - run_abcW_cyclone.R : run the analysis for varying proportions of training samples (with repetitions)
-  - run_valid_ML.R : run the ML validation procedure
+  - [run_abcW_cyclone.R](./run_abcW_cyclone.R) : run the analysis for varying proportions of training samples (with repetitions)
+  - [run_valid_ML.R](./run_valid_ML.R) : run the ML validation procedure
 
 - [ ] Files (please unzip them before launching the scripts)
   - ./data: Cyclone characteristics and Hs extracted at the two points
