@@ -3,8 +3,8 @@
 This repository contains the data and R scripts to reproduce the results of Rohmer et al. (2023) "Combining uncertain machine learning predictions and numerical simulation results for the extreme value analysis of cyclone-induced wave heights – Application in Guadeloupe", submitted to Ocean Modelling
 
 - [ ] R scripts
-  - [run_doe_MLtraining.R](./run_doe_MLtraining.R) : generate a design of experiments from the cyclone database and run the ML training + validation procedure
-  - [run_abcW_cyclone.R](./run_abcW_cyclone.R) : run the analysis for varying proportions of training samples (with repetitions)
+  - Step 1 launch [run_doe_MLtraining.R](./run_doe_MLtraining.R) to generate a design of experiments from the cyclone database and run the ML training + validation procedure
+  - Step 2 luach [run_abcW_cyclone.R](./run_abcW_cyclone.R) to run the analysis for varying proportions of training samples (with repetitions)
 
 - [ ] Files (please unzip them before launching the scripts)
   - ./data: Cyclone characteristics and Hs extracted at the four points
