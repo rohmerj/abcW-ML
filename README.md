@@ -1,4 +1,4 @@
-# abcW-ML: combining ABC, Wasserstein distance and ML predictions for extreme value analysis
+# abcW-ML: combining ABC, Wasserstein distance and uncertain ML predictions for extreme value analysis
 
 This repository contains the data and R scripts to reproduce the results of Rohmer et al. (2023) "Combining uncertain machine learning predictions and numerical simulation results for the extreme value analysis of cyclone-induced wave heights – Application in Guadeloupe", submitted to Ocean Modelling
 
